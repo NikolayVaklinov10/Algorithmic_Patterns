@@ -13,7 +13,7 @@ public class Pair_with_Target_Sum {
                 } else if (targetSum > currentSum){
                     left++; // we need a pair with bigger sum
                 } else {
-                    right--;
+                    right--; // the pair have to be smaller
                 }
             }
             return new int[]{-1, -1};
