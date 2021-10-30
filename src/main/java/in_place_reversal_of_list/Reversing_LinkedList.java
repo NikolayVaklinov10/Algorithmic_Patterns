@@ -9,6 +9,7 @@ class ListNode {
     }
 }
 
+// common interview question
 public class Reversing_LinkedList {
 
     public static ListNode reverse(ListNode head) {
