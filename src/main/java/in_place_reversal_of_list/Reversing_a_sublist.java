@@ -36,6 +36,7 @@ public class Reversing_a_sublist {
             current = next;
         }
 
+
         // connect with the first part
         if (lastNodeOfFirstPart != null)
             lastNodeOfFirstPart.next = previous; // 'previous' is now the first node of the sub-list
